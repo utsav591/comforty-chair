@@ -8,3 +8,10 @@
     margin-right: 10rem!important;
     padding-right: 7rem; 
 }
+.box{
+    position: absolute;
+    bottom: 490px;
+    left: 446px;
+    height: 24vh;
+    width: 100px;
+}
