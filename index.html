@@ -36,7 +36,8 @@
     </nav>
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container">
-        <button class="btn btn-outline-dark d-flex justify-content-between align-content-center" type="submit">
+        <button class="navbar-toggler btn btn-outline-dark d-flex justify-content-between align-content-center" type="submit"data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="pt-2 fa-solid fa-bars"></i>
           <span class="ms-3 pt-1">All Categories</span>
         </button>
@@ -46,16 +47,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
+              <a class="nav-link" href="#shop">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
+              <a class="nav-link" href="#services">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pages</a>
+              <a class="nav-link" href="#Pages">Pages</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
           </ul>
           <a class="nav-link ms-auto" href="#">Contact: (808) 555-0111</a>
@@ -63,10 +64,10 @@
       </div>
     </nav>
   </section>
-  <section id="banner">
+  <section class="bg-body-tertiary" id="banner">
     <div class="container">
-      <div class="row bg-body-tertiary">
-        <div class="col-lg-6 pt-5 mt-5 ps-5 fw-bold">
+      <div class="row">
+        <div class="col-lg-6 pt-5 mt-5 ps-5 fw-bold banner">
           <h6 class="pt-5 ps-5">WELCOME TO CHAIRY</h6>
           <h1 class="fw-bold ps-5 container-h1">
             Best Furniture Collection For Your Interior
@@ -76,8 +77,8 @@
         </div>
         <div class="col-lg-6">
           <div class="p-5 position-relative">
-            <div class="">
-              <img class="p-2" src="ecom image/banner.png">
+            <div class="image-pad">
+              <img class="p-2 image" src="ecom image/banner.png">
             </div>
             <div class="rounded-circle bg-white  align-content-center box">
               <div class="ps-3">
@@ -89,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="shop">
       <h2 class="fw-bold pb-3">Features Products</h2>
       <div class="row">
         <div class="col-lg-3 col-md-6 py-2">
@@ -147,10 +148,10 @@
       </div>
     </div>
   </section>
-  <section class="bg-white" id="services">
+  <section class="bg-body-tertiary" id="services">
     <div class="container p-4">
       <div class="text-center py-3">
-        <h2 class="fw-bold" >OUR PRODUCT</h2>
+        <h2 class="fw-bold">OUR PRODUCT</h2>
       </div>
       <div class="d-flex py-2">
         <a class="nav-link" href="#">All</a>
@@ -267,7 +268,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section id="about">
     <div class="container p-lg-3">
       <h1 class="text-center pb-2">What Client Say About Us</h1>
       <div class="row m-3 ">
@@ -309,8 +310,8 @@
         </div>
       </div>
   </section>
-  <section>
-    <div class="container">
+  <section class="bg-body-tertiary" id="Pages">
+    <div class="container pb-5">
       <h2 class="fw-bold pb-3">Features Products</h2>
       <div class="row">
         <div class="col-lg-3 col-md-6 py-2">
@@ -368,7 +369,7 @@
       </div>
     </div>
   </section>
-  <section class="container text-dark p-5">
+  <section class="container text-dark p-5" id="">
     <div class="row">
       <div class="col-lg-4">
         <h1>Chairy</h1>
