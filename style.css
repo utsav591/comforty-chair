@@ -12,7 +12,7 @@
     position: absolute;
     bottom: 490px;
     left: 446px;
-    height: 14vh;
+    height: 10vh;
     width: 100px;
 }
 .footer-ul{
@@ -29,11 +29,11 @@
         height: 370px;
     }
     .box{
-        position: absolute;
-            bottom: 254px;
-            left: 230px;
-            height: 8vh;
-            width: 82px;
+    bottom: 466px;
+    left: 230px;
+    height: 69px;
+    width: 96px;
+    
     }
     .container-h1{
         font-size: 20px;
