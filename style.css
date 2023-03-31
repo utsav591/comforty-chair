@@ -8,12 +8,13 @@
     margin-right: 10rem!important;
     padding-right: 7rem; 
 }
+
 .box{
     position: absolute;
-    bottom: 490px;
-    left: 446px;
-    height: 10vh;
-    width: 100px;
+    bottom: 445px;
+    left: 414px;
+    height: 71px;
+    width: 92px;
 }
 .footer-ul{
     list-style-type: none;
