@@ -17,7 +17,6 @@
 }
 .footer-ul{
     list-style-type: none;
-    padding-left: 0px;
     padding:14px 0px;
 }
 @media (max-width: 481px) {
@@ -26,11 +25,17 @@
      margin-top:20px ;
     }
     .image{
-        padding-left: 10px;
+        width: 357px;
+        height: 370px;
     }
-    .image-pad{
-        height: 70vh;
-        width: 50px;
-        padding-right: 20px;
+    .box{
+        position: absolute;
+    bottom: 454px;
+    left: 230px;
+    height: 8vh;
+    width: 82px;
+    }
+    .container-h1{
+        font-size: 20px;
     }
 }
