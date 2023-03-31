@@ -30,10 +30,10 @@
     }
     .box{
         position: absolute;
-    bottom: 454px;
-    left: 230px;
-    height: 8vh;
-    width: 82px;
+            bottom: 254px;
+            left: 230px;
+            height: 8vh;
+            width: 82px;
     }
     .container-h1{
         font-size: 20px;
