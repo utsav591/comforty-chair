@@ -19,6 +19,12 @@
 .footer-ul{
     list-style-type: none;
     padding:14px 0px;
+
+}
+.darkMode{
+    color: white;
+    background-color: black;
+    border-color: white;
 }
 @media (max-width: 481px) {
     .banner{
